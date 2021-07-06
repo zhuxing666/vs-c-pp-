@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 #include<string >
-#define MAX 500
+#define MAX 500//最大联系个数
 struct Person//联系人结构
 {
 	string m_Name;
