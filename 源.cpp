@@ -108,7 +108,7 @@ void showPerson(Addressbooks*abs)
 }
 
 
-//检测联系儿女存在否
+//检测联系人存在否
 int IsExist(Addressbooks*abs,string name)
 {
 	for (int i = 0;i < abs->m_Size; i++)
