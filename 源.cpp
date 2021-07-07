@@ -19,6 +19,7 @@ struct Addressbooks  //通讯录
 	int m_Size; //当前通讯联系人个数
 };
 
+//菜单
 void showMenu()
 {
 	cout << "*******************" << endl;
@@ -32,6 +33,7 @@ void showMenu()
 	cout << "*******************" << endl;
 }
 
+//添加联系人
 void addPerson(Addressbooks*abs)
 {
 	if (abs->m_Size == MAX)
@@ -84,7 +86,7 @@ void addPerson(Addressbooks*abs)
 	}
 
 }
-
+//显示联系人
 void showPerson(Addressbooks*abs)
 {
 	if (abs->m_Size == 0)
