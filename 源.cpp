@@ -22,7 +22,7 @@ struct Addressbooks  //通讯录
 //菜单
 void showMenu()
 {
-	cout << "*******************" << endl;
+	cout << "**欢迎使用猪猪学生管理系统*******" << endl;
 	cout << "***1、添加联系人***" << endl;
 	cout << "***2、显示联系人***" << endl;
 	cout << "***3、删除联系人***"<< endl;
